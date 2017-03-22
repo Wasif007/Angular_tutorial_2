@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./new-user.component.css']
 })
 export class NewUserComponent implements OnInit {
-
-  constructor() { }
+name :string;
+  constructor() {
+    this.name="Wasif";
+   }
 
   ngOnInit() {
   }
